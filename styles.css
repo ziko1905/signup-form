@@ -34,6 +34,7 @@ form {
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,7 +51,6 @@ input {
 }
 
 label {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
@@ -60,6 +60,13 @@ label {
 button {
     margin-top: 40px;
     margin-left: var(--left-margin);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: aliceblue;
+
+    font-size: 1.3rem;
 }
 
 p {
