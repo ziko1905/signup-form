@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'norsebold';
-    src: url('norse-bold-webfont.woff2') format('woff2'),
-         url('norse-bold-webfont.woff') format('woff');
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -13,6 +13,19 @@
 
 :root {
     --primary-color: #778c67;
+    --left-margin: 50px;
+}
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+
+    margin: 0;
+    margin-left: var(--left-margin);
+}
+
+header {
+    align-content: flex-end;
 }
 
 body {
@@ -34,4 +47,9 @@ body {
 .logo {
     flex: 1;
     height: 100vh;
+}
+
+#actioncall {
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
