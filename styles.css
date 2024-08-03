@@ -30,7 +30,7 @@ header {
 }
 
 form {
-    flex: 1.75;
+    flex: 1.85;
 }
 
 body {
@@ -55,6 +55,15 @@ label {
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     color: rgb(68, 68, 68);
+}
+
+button {
+    margin-top: 40px;
+    margin-left: var(--left-margin);
+}
+
+p {
+    margin-left: var(--left-margin);
 }
 
 .form {
@@ -85,7 +94,7 @@ label {
     display: flex;
     flex-wrap: wrap;
     width: 700px;
-    margin: 30px 0;
+    margin: 30px 0 20px 0;
     margin-left: var(--left-margin);
     gap: 25px 70px;
 }
