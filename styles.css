@@ -26,6 +26,11 @@ h1 {
 
 header {
     align-content: flex-end;
+    flex: 1;
+}
+
+form {
+    flex: 1.55;
 }
 
 body {
@@ -40,6 +45,7 @@ body {
 .form {
     flex: 1.7;
     display: flex;
+    flex-direction: column;
     height: 100vh;
     background-color: aliceblue;
 }
