@@ -15,4 +15,17 @@ body {
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+}
+
+.form {
+    flex: 1;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.logo {
+    flex: 1;
+    height: 100vh;
 }
