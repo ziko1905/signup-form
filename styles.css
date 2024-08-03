@@ -42,8 +42,8 @@ body {
     display: flex;
 }
 
-label {
-    margin-left: var(--left-margin);
+input {
+    display: block;
 }
 
 .form {
@@ -68,4 +68,11 @@ label {
     padding: 10px 0;
     background-color: white;
     box-shadow: 0px 2px 13px -8px;
+}
+
+.label-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: var(--left-margin);
+    gap: 15px 60px;
 }
