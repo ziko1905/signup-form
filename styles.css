@@ -45,9 +45,32 @@ form {
 
 input {
     display: block;
+    box-sizing: border-box;
+    font-size: 1.3rem;
     width: 280px;
-    height: 25px;
+    height: 35px;
     margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 15px -5px;
+    border: 1px solid rgb(0, 101, 184);
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
+}
+
+input[type="password"]:invalid+span::before {
+    color: red;
+    font-size: 0.8rem;
+    letter-spacing: normal;
+    content: "*Passwords do not match";
+    text-transform: none;
 }
 
 label {
