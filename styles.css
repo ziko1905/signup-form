@@ -73,6 +73,10 @@ p {
     margin-left: var(--left-margin);
 }
 
+img {
+    width: 7rem;
+}
+
 .form {
     flex: 1.7;
     display: flex;
@@ -94,7 +98,7 @@ p {
 }
 
 .bottom-logo {
-    flex: 1.85;
+    flex: 1.75;
 }
 
 .info {
@@ -124,9 +128,17 @@ p {
 }
 
 #title {
-    background-color: rgba(0, 0, 0, 0.219);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.753);
 }
 
 #title h1 {
-    font-family: 'norsebold' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: center;
+    color: white;
+    font-family: 'norsebold';
+    font-size: 8rem;
+    text-align: center;
+    margin: 0;
 }
